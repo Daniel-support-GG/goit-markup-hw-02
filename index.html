@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <header id="header">
+    <header class="header">
       <a href="./index.html" class="logo-header"><span>Web</span>Studio</a>
       <nav>
         <ul>
@@ -45,35 +45,37 @@
       </address>
     </header>
     <main>
-      <section id="hero">
-        <h1 class="hero-title">Effective Solutions for Your Business</h1>
-        <button type="button" class="hero-btn">Order Service</button>
+      <section class="hero">
+        <div class="container hero-container">
+          <h1 class="hero-title">Effective Solutions for Your Business</h1>
+          <button type="button" class="hero-btn">Order Service</button>
+        </div>
       </section>
       <section id="features">
         <h2 class="features-title">Our Features</h2>
         <ul>
-          <li>
+          <li сlass="features-item">
             <h3 class="features-subtitle">Strategy</h3>
             <p class="features-text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
+          <li class="features-item">
             <h3 class="features-subtitle">Punctuality</h3>
             <p class="features-text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
+          <li class="features-item">
             <h3 class="features-subtitle">Diligence</h3>
             <p class="features-text">
               Research and confirm brands with the strongest digital growth
               opportunities and minimize risk.
             </p>
           </li>
-          <li>
+          <li class="features-item">
             <h3 class="features-subtitle">Technologies</h3>
             <p class="features-text">
               Design practice focused on digital experiences. We bring forth a
@@ -82,12 +84,13 @@
           </li>
         </ul>
       </section>
-      <section id="team">
-        <h2 class="team-title">Our Team</h2>
-        <ul>
-          <li>
-            <img
-              src="./images/team-1.jpg"
+      <section class="team">
+        <div class="container">
+          <h2 class="team-title">Our Team</h2>
+          <ul class="team-list">
+            <li class="team-member">
+              <img
+                src="./images/team-1.jpg"
               width="264"
               height="260"
               alt="Team member"
@@ -95,12 +98,12 @@
             <h3 class="team-subtitle">Mark Guerrero</h3>
             <p class="team-text">Product Designer</p>
           </li>
-          <li>
+          <li class="team-member">
             <img src="./images/team-2.jpg" width="264" alt="Team member" />
             <h3 class="team-subtitle">Tom Ford</h3>
             <p class="team-text">Frontend Developer</p>
           </li>
-          <li>
+          <li class="team-member">
             <img
               src="./images/team-3.jpg"
               width="264"
@@ -110,7 +113,7 @@
             <h3 class="team-subtitle">Camila Garcia</h3>
             <p class="team-text">Marketing</p>
           </li>
-          <li>
+          <li class="team-member">
             <img
               src="./images/team-4.jpg"
               width="264"
@@ -122,20 +125,21 @@
           </li>
         </ul>
       </section>
-      <section id="portfolio">
-        <h2 class="portfolio-title">Our Portfolio</h2>
-        <ul>
-          <li>
-            <img
-              src="./images/portfolio-1.jpg"
+      <section class="portfolio">
+        <div class="container portfolio-container">
+          <h2 class="portfolio-title">Our Portfolio</h2>
+          <ul class="portfolio-list">
+            <li class="portfolio-item">
+              <img
+                src="./images/portfolio-1.jpg"
               alt="Banking application interface shown on a smartphone screen"
               width="360"
-              height="300"
-            />
+              height="300"/>
             <h3 class="portfolio-subtitle">Banking App</h3>
             <p class="portfolio-text">App</p>
           </li>
-          <li>
+          </div>
+          <li class="portfolio-item">
             <img
               src="./images/portfolio-2.jpg"
               alt="A smartphone paying via QR code at a contactless terminal"
@@ -145,7 +149,7 @@
             <h3 class="portfolio-subtitle">Cashless Payment</h3>
             <p class="portfolio-text">Marketing</p>
           </li>
-          <li>
+          <li class="portfolio-item">
             <img
               src="./images/portfolio-3.jpg"
               alt="Meditation application opened on a laptop and a smartphone"
@@ -155,7 +159,7 @@
             <h3 class="portfolio-subtitle">Meditation App</h3>
             <p class="portfolio-text">App</p>
           </li>
-          <li>
+          <li class="portfolio-item">
             <img
               src="./images/portfolio-4.jpg"
               alt="A smartphone with a navigation route mounted on a car dashboard"
@@ -165,7 +169,7 @@
             <h3 class="portfolio-subtitle">Taxi Service</h3>
             <p class="portfolio-text">Marketing</p>
           </li>
-          <li>
+          <li class="portfolio-item">
             <img
               src="./images/portfolio-5.jpg"
               alt="Four variants of smartphone wallpapers with space illustrations"
@@ -175,7 +179,7 @@
             <h3 class="portfolio-subtitle">Screen Illustrations</h3>
             <p class="portfolio-text">Design</p>
           </li>
-          <li>
+          <li class="portfolio-item">
             <img
               src="./images/portfolio-6.jpg"
               alt="A young woman smiling and holding a smartphone in her hands"
@@ -188,12 +192,16 @@
         </ul>
       </section>
     </main>
-    <footer id="footer">
+    <footer class="page-footer">
+    <div class="container footer-container">
+      <div class="footer-wrapper">
       <a href="./index.html" class="logo-footer"><span>Web</span>Studio</a>
       <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
+      </div>
+    </div>
     </footer>
   </body>
 </html>

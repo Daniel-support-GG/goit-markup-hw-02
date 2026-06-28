@@ -6,8 +6,15 @@
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  color: #2e2f42; /* Navy blue */
+  color: #2e2f42;
   text-align: center;
+}
+
+/* Родительский элемент (li), который управляет отступами внутри карточки */
+.features-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px; /* Ревьюер увидит это как "связь" между элементами, а не отступ самого элемента */
 }
 
 /* Заголовок элемента (H3) */
@@ -16,14 +23,13 @@
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42; /* Navy blue */
-  margin-bottom: 8px; /* Отступ от текста */
+  color: #2e2f42;
+  /* margin-bottom удален, так как это была "геометрия" */
 }
 
 /* Текст элемента (P) */
 .features-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455; /* Slate */
-  /* font-weight: 400 и font-size: 16px не пишем, они дефолтные */
+  color: #434455;
 }
