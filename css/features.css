@@ -1,0 +1,29 @@
+/* --- Features Section --- */
+
+/* Заголовок секции (H2) */
+.features-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42; /* Navy blue */
+  text-align: center;
+}
+
+/* Заголовок элемента (H3) */
+.features-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42; /* Navy blue */
+  margin-bottom: 8px; /* Отступ от текста */
+}
+
+/* Текст элемента (P) */
+.features-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455; /* Slate */
+  /* font-weight: 400 и font-size: 16px не пишем, они дефолтные */
+}

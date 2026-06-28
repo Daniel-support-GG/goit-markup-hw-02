@@ -1,0 +1,41 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+/* Скидання відступів, заданих браузером */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+/* Скидання маркерів і відступів для списків */
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Скидання підкреслення для посилань */
+a {
+  text-decoration: none;
+}
+
+/* Кнопкам задана властивість cursor зі значенням pointer (строго за ТЗ) */
+button {
+  cursor: pointer;
+}
+
+/* Зображення гумові і не вилазять за межі блоку */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
